@@ -1,0 +1,16 @@
+{
+  "name": "sre-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --inspect-brk node-api/index.js",
+    "start": "node node-api/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "prom-client": "^14.2.0",
+    "redis": "^4.7.0"
+  }
+}
